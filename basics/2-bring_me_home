@@ -1,2 +1,2 @@
 #!/bin/bash
-cd "$(env | grep '^HOME=' | cut -d= -f2)"
+cd ~
