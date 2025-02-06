@@ -8,3 +8,4 @@ mkdir /tmp/my_first_directory: creates a directory named my_first_directory in t
 mv /tmp/betty /tmp/my_first_directory: move the betty file into the myfirstdirectory
 rm /tmp/my_first_directory/betty: delete the file betty
 cd -: changes the working directory to the previous one
+ls -l -a . .. /boot: list all files in the current directory, the parent directory, and the /boot directory in long format
