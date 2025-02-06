@@ -1,1 +1,3 @@
+#! /bin/bash
+# This script prints the path or the current working directory
 pwd
