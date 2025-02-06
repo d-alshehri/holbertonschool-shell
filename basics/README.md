@@ -9,3 +9,4 @@ mv /tmp/betty /tmp/my_first_directory: move the betty file into the myfirstdirec
 rm /tmp/my_first_directory/betty: delete the file betty
 cd -: changes the working directory to the previous one
 ls -l -a . .. /boot: list all files in the current directory, the parent directory, and the /boot directory in long format
+rm -r /tmp/my_first_directory: delete the directory my_first_directory that is in the /tmp directory
