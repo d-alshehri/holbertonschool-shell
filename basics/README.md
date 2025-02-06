@@ -1,3 +1,3 @@
 pwd: a script that prints the absolute path name of the current working directory
 ls: shows the files and folders in the directory you are currently in
-cd "$(env | grep '^HOME=' | cut -d= -f2)": changes the working directory to the user's home directory
+cd ~: changes the working directory to the user's home directory
