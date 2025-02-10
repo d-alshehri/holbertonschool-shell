@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt --time-style=long-iso | awk 'NR>1 {print $NF}' | head -n 10
+ls -tp | grep -v / | head -n 10
